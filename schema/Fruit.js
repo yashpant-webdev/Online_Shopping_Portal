@@ -9,6 +9,7 @@ const fruitSchema = new Schema({
    count:Number
 });
 
+
 const Fruit = mongoose.model('Fruit', fruitSchema);
 
 module.exports = Fruit;
